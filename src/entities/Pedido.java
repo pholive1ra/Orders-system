@@ -69,7 +69,6 @@ public class Pedido {
         sb.append("DADOS DO PEDIDO:\n");
         sb.append(cliente).append("\n");
         sb.append("Status: ").append(statusPedido).append("\n");
-        sb.append("Produtos:\n");
 
         for (Produto p : produtos) {
             sb.append(p).append("\n");
